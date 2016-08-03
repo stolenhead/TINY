@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+		 <title>Simple Grid - Framework</title>
+
+		<link rel="stylesheet" href="css/simplegrid.min.css">
+
+		<!--[if lt IE 9]>
+      	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    	<![endif]-->
+	</head>
+	<body>
+		
+		<!--start: SIMPLE GRID - NAVIGATION -->
+		<nav id="sg-nav">
+			<button id="sg-nav-trigger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+		
+			<ul>
+				<li><a href=""> </a></li>
+				<li><a href=""> </a></li>
+				<li><a href=""> </a></li>
+				<li><a href=""> </a></li>
+			</ul>
+		</nav><!--end: SIMPLE GRID - NAVIGATION -->
+
+
+
+		<h1>Hello World!</h1>
+
+
+
+	
+		<!-- js -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script>
+			// MAIN-NAV
+			jQuery( "#sg-nav-trigger" ).click(function() {
+				jQuery( "#sg-nav ul" ).toggle();
+			});
+		</script>
+
+	</body>
+</html>
